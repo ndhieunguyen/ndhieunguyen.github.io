@@ -24,13 +24,25 @@
   },
   "work": [
     {
-      "name": "Skolareach - Reach Scholarship Area",
-      "position": "Co-founder - Education Team Leader",
-      "url": "https://www.facebook.com/skolareach/",
-      "startDate": "2021-05-23",
-      "endDate": "2024-05-23",
-      "summary": "Skolareach is an organization that provides paid courses to help students win the FPT Scholarship. Together with my friends, I founded this organization and worked as Education Team Leader.",
-      "highlights": ["In 2023 and 2024, more than 90% of Skolareach's students achieved FPT University Scholarship"]
+      "name": "Institute for Advanced Study, Princeton University",
+      "position": "Professor of Theoretical Physics",
+      "url": "https://example.com",
+      "startDate": "1933-01-01",
+      "endDate": "1955-01-01",
+      "summary": "Teaching at Palmer Physical Laboratory (now 302 Frist Campus Center). While not a professor at Princeton, I associated with the physics professors and continued to give lectures on campus.",
+      "highlights": ["Relativity"]
+    }
+  ],
+  "volunteer": [
+    {
+      "organization": "People's Climate March",
+      "location": "Zurich, Switzerland",
+      "position": "Lead Organizer",
+      "url": "https://example.com",
+      "startDate": "2014-04-01",
+      "endDate": "2015-07-01",
+      "summary": "Lead organizer for the New York City branch of the People's Climate March, the largest climate march in history.",
+      "highlights": ["Awarded 'Climate Hero' award by Greenpeace for my efforts organizing the march.", "Men of the year 2014 by Time magazine"]
     }
   ],
   "education": [
@@ -48,18 +60,11 @@
   ],
   "awards": [
     {
-      "title": "100% Scholarship",
-      "date": "2020-09-20",
-      "awarder": "FPT University Ho Chi Minh",
-      "url": "https://daihoc.fpt.edu.vn/trong-ky-thi-hoc-bong-khong-vi-than-nao-mang-lai-ky-tich-ngoai-ban-than-minh/",
-      "summary": "The scholarship is awarded to excellent students having participated in the FPT entrance test"
-    },
-    {
-      "title": "3rd Runner Up at FPT Mathematics Olympic",
-      "date": "2022-06-15",
-      "awarder": "FPT University Ho Chi Minh",
-      "url": "https://www.facebook.com/FPTU.HCM/posts/pfbid0F9ednEYwrqTX7WnEaBfxSf7GRPhd7heiNqQ58waPR3rURwp5pXuwybaDiuabWcCpl",
-      "summary": ""
+      "title": "Nobel Prize in Physics",
+      "date": "1921-11-01",
+      "awarder": "Royal Swedish Academy of Sciences",
+      "url": "https://www.nobelprize.org/prizes/physics/1921/einstein/biographical/",
+      "summary": "The Nobel Prizes are five separate prizes that, according to Alfred Nobel's will of 1895, are awarded to 'those who, during the preceding year, have conferred the greatest benefit to humankind.'"
     }
   ],
   "certificates": [
@@ -146,19 +151,19 @@
   ],
   "languages": [
     {
-      "language": "English",
-      "fluency": "Fluent",
-      "icon": "🇪🇳"
+      "language": "German",
+      "fluency": "Native speaker",
+      "icon": ""
     },
     {
-      "language": "Vietnamese",
-      "fluency": "Native speaker",
-      "icon": "🇻🇮"
+      "language": "English",
+      "fluency": "Fluent",
+      "icon": ""
     }
   ],
   "interests": [
     {
-      "name": "Anime - Manga",
+      "name": "Physics",
       "icon": "fa-solid fa-tag",
       "keywords": [
         "Quantum Mechanics",
@@ -172,9 +177,14 @@
   ],
   "references": [
     {
-      "name": "Ph.D. Duc Ngoc Minh Dang",
+      "name": "Professor John Doe",
       "icon": "fa-solid fa-laptop",
-      "reference": "I was mentored by Ph.D. Duc Ngoc Minh Dang in the research of ViTExCo and SwinTExCo, which are two video colorization models"
+      "reference": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit. D"
+    },
+    {
+      "name": "Professor John Doe",
+      "icon": "fa-solid fa-thumbtack",
+      "reference": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit. D"
     }
   ],
   "projects": [
