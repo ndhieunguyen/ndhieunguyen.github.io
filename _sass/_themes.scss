@@ -66,11 +66,11 @@
 }
 
 html[data-theme="dark"] {
-  --global-bg-color: #{$b-color};
+  --global-bg-color: #{$a-color};
   --global-code-bg-color: #{$c-color};
   --global-text-color: #{$grey-color-light};
   --global-text-color-light: #{$grey-color};
-  --global-theme-color: #{$a-color};
+  --global-theme-color: #{$b-color};
   --global-hover-color: #{$d-color};
   --global-hover-text-color: #{$d-color};
   --global-footer-bg-color: #{$grey-color-light};
