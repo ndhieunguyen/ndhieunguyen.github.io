@@ -36,7 +36,7 @@
   "education": [
     {
       "institution": "FPT University, Ho Chi Minh city, Vietnam",
-      "location": "Ho Chi Minh city, Vietnam",
+      "location": "HCM city, Vietnam",
       "url": "https://hcmuni.fpt.edu.vn/",
       "area": "Information Technology",
       "studyType": "Bachelor",
@@ -93,19 +93,19 @@
   "certificates": [
     {
       "name": "Deep Learning",
-      "date": "2022-04-20",
+      "date": "2022-04",
       "issuer": "DeepLearning.AI",
       "url": "https://www.coursera.org/account/accomplishments/specialization/certificate/SWUMFH9PT9PP"
     },
     {
       "name": "Natural Language Processing",
-      "date": "2022-04-07",
+      "date": "2022-04",
       "issuer": "DeepLearning.AI",
       "url": "https://www.coursera.org/account/accomplishments/specialization/certificate/BJYEDF9YDLFF"
     },
     {
       "name": "Generative Adversarial Networks (GANs)",
-      "date": "2022-11-03",
+      "date": "2022-11",
       "issuer": "DeepLearning.AI",
       "url": "https://www.coursera.org/account/accomplishments/specialization/certificate/PCW5VRNC4VXZ"
     }

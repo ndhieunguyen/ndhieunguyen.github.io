@@ -1,5 +1,7 @@
 <h3>
+<a href="https://namphuongtran9196.github.io/">
 Mr. Nam Phuong Tran
+</a>
 </h3>
 From 2021 to 2023, He was a Junior AI Engineer at [K&G company](http://www.kng.vn/), in Vietnam. During this time, he also worked as an AI researcher at startup [Pythera AI](https://www.linkedin.com/company/pythera-ai/about/) which took account into many projects related to Natural Language Processing and Computer Vision.Currently, he work as an AI researcher under the guidance of Dr. [Duc Ngoc Minh Dang](https://dnmduc.github.io/). at FPT University, Ho Chi Minh City, Vietnam.
 
