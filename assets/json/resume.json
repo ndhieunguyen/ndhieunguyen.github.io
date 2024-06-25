@@ -92,34 +92,22 @@
   ],
   "certificates": [
     {
-      "name": "Machine Learning",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-location-dot"
-    }
-  ],
-  "publications": [
-    {
-      "name": "Zur Elektrody/namik bewegter Körper",
-      "publisher": "Annalen der Physik",
-      "releaseDate": "1905-06-30",
-      "url": "https://en.wikisource.org/wiki/Translation:On_the_Electrodynamics_of_Moving_Bodies",
-      "summary": "It concerned an interpretation of the Michelson–Morley experiment and the properties of light and time. Special relativity incorporates the principle that the speed of light is the same for all inertial observers regardless of the state of motion of the source."
+      "name": "Deep Learning",
+      "date": "2022-04-20",
+      "issuer": "DeepLearning.AI",
+      "url": "https://www.coursera.org/account/accomplishments/specialization/certificate/SWUMFH9PT9PP"
     },
     {
-      "name": "Über einen die Erzeugung und Verwandlung des Lichtes betreffenden heuristischen Gesichtspunkt",
-      "publisher": "Annalen der Physik",
-      "releaseDate": "1905-03-18",
-      "url": "https://de.wikisource.org/wiki/Über_einen_die_Erzeugung_und_Verwandlung_des_Lichtes_betreffenden_heuristischen_Gesichtspunkt",
-      "summary": "In the second paper, he applied the quantum theory to light to explain the photoelectric effect. In particular, he used the idea of light quanta (photons) to explain experimental results, but stressed the importance of the experimental results. The importance of his work on the photoelectric effect earned him the Nobel Prize in Physics in 1921."
+      "name": "Natural Language Processing",
+      "date": "2022-04-07",
+      "issuer": "DeepLearning.AI",
+      "url": "https://www.coursera.org/account/accomplishments/specialization/certificate/BJYEDF9YDLFF"
     },
     {
-      "name": "Die Grundlage der allgemeinen Relativitätstheorie",
-      "publisher": "Annalen der Physik",
-      "releaseDate": "1916-03-20",
-      "url": "https://de.wikisource.org/wiki/Die_Grundlage_der_allgemeinen_Relativitätstheorie",
-      "summary": "The publication of the theory of general relativity made him internationally famous. He was professor of physics at the universities of Zurich (1909–1911) and Prague (1911–1912), before he returned to ETH Zurich (1912–1914)."
+      "name": "Generative Adversarial Networks (GANs)",
+      "date": "2022-11-03",
+      "issuer": "DeepLearning.AI",
+      "url": "https://www.coursera.org/account/accomplishments/specialization/certificate/PCW5VRNC4VXZ"
     }
   ],
   "skills": [
@@ -142,28 +130,11 @@
       "icon": "🇻🇮"
     }
   ],
-  "interests": [
-    {
-      "name": "Anime - Manga",
-      "icon": "fa-solid fa-tag",
-      "keywords": ["Dragon Ball", "Naruto", "Jujutsu no Kaisen"]
-    }
-  ],
   "references": [
     {
       "name": "Ph.D. Duc Ngoc Minh Dang",
       "icon": "fa-solid fa-laptop",
       "reference": "I was mentored by Ph.D. Duc Ngoc Minh Dang in the research of ViTExCo and SwinTExCo, which are two video colorization models"
-    }
-  ],
-  "projects": [
-    {
-      "name": "SwinTExCo",
-      "summary": "",
-      "highlights": ["Video Colorization", "Image Colorization"],
-      "startDate": "2018-03-15",
-      "endDate": "2023-12-15",
-      "url": "https://huggingface.co/spaces/chronopt-research/SwinTExCo"
     }
   ]
 }
