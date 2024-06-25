@@ -1,5 +1,7 @@
 <h3>
+<a href="https://dnmduc.github.io/">
 Ph.D. Duc Ngoc Minh Dang
+</a>
 </h3>
 He received the B.Eng and M.Eng degrees in Telecommunications Engineering from [Ho Chi Minh City University of Technology, Vietnam](https://hcmut.edu.vn/), in 2005 and 2007, respectively and the Ph.D. degree in Computer Engineering from [Kyung Hee University](https://khu.ac.kr), Korea, in 2014. His research interests include the MAC protocols in Wireless Ad hoc Networks, Vehicular Ad hoc Networks, Deep Learning and Internet of Things.
 
