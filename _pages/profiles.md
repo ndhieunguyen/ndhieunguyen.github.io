@@ -13,15 +13,15 @@ profiles:
     image: dnmduc.png
     content: dnmduc.md
     image_circular: false # crops the image to make it circular
-    more_info:
+    more_info: Website [https://dnmduc.github.io/](https://dnmduc.github.io/)
   - align: left
     image: namphuongtran9196.png
     content: namphuongtran9196.md
     image_circular: false # crops the image to make it circular
-    more_info:
+    more_info: Website [https://namphuongtran9196.github.io/](https://namphuongtran9196.github.io/)
   - align: right
     image: nhattruongpham.png
     content: nhattruongpham.md
     image_circular: false # crops the image to make it circular
-    more_info:
+    more_info: Website [https://nhattruongpham.github.io/](https://nhattruongpham.github.io/)
 ---
