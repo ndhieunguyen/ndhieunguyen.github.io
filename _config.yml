@@ -88,12 +88,12 @@ lattes_id: # your ID on Lattes (Brazilian Lattes CV)
 linkedin_username: ndhieunguyen # your LinkedIn user name
 mastodon_username: # your mastodon instance+username in the format instance.tld/@username
 medium_username: # your Medium username
-orcid_id: # your ORCID ID
+orcid_id: 0009-0003-9259-8600 # your ORCID ID
 osf_id: # your OSF ID
 pinterest_id: # your pinterest id
 publons_id: # your ID on Publons
 quora_username: # your Quora username
-research_gate_profile: # your profile on ResearchGate
+research_gate_profile: Nguyen-Doan-Hieu-Nguyen # your profile on ResearchGate
 scholar_userid: -aEoZCgAAAAJ # your Google Scholar ID
 scopus_id: # your profile on Scopus
 semanticscholar_id: # your Semantic Scholar ID
@@ -233,6 +233,9 @@ exclude:
   - _pages/profiles.md
   - _pages/projects.md
   - _pages/teaching.md
+  - _posts/
+  - _projects/
+  - _news/
   - purgecss.config.js
   - README.md
   - readme_preview/
