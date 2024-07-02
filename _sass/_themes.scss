@@ -17,7 +17,7 @@
   --global-divider-color: rgba(0, 0, 0, 0.1);
   --global-card-bg-color: #{$c-color};
   --global-highlight-color: #{$red-color-dark};
-  --global-back-to-top-bg-color: rgba(#{red($black-color)}, #{green($black-color)}, #{blue($black-color)}, 0.4);
+  --global-back-to-top-bg-color: rgba(#{red($a-color)}, #{green($a-color)}, #{blue($a-color)}, 0.4);
   --global-back-to-top-text-color: #{$d-color};
 
   --global-tip-block: #42b983;
@@ -67,7 +67,7 @@
 
 html[data-theme="dark"] {
   --global-bg-color: #{$a-color};
-  --global-code-bg-color: #{$c-color};
+  --global-code-bg-color: #{$b-color};
   --global-text-color: #{$grey-color-light};
   --global-text-color-light: #{$grey-color};
   --global-theme-color: #{$c-color};
