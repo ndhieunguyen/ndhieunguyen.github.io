@@ -6,9 +6,9 @@ title: Nguyen Doan Hieu Nguyen # the website title (if blank, full name will be 
 first_name: Nguyen
 middle_name: Doan Hieu
 last_name: Nguyen
-email: nguyenndhse161261@fpt.edu.vn
+email: ndhieunguyen@skku.edu
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
-  Nguyen Doan Hieu Nguyen's personal website. 
+  Nguyen Doan Hieu Nguyen's personal website.
 footer_text:
   # Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
   # Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
@@ -108,7 +108,7 @@ wikipedia_id: # your wikipedia id (Case sensitive)
 work_url: # work page URL
 x_username: # your X handle
 youtube_id: ndhieunguyen # your youtube channel id (youtube.com/@<youtube_id>)
-zotero_username: # your zotero username
+zotero_username: ndhieunguyen # your zotero username
 
 contact_note: >
   Feel free to contact me by any means of communication application above
@@ -131,7 +131,7 @@ bing_site_verification: # out your bing-site-verification ID (Bing Webmaster)
 # -----------------------------------------------------------------------------
 
 blog_name: ndhieunguyen blog # blog_name will be displayed in your blog page
-blog_description: ndhieunguyen blog 
+blog_description: ndhieunguyen blog
 permalink: /blog/:year/:title/
 lsi: true # produce an index for related posts
 

@@ -1,15 +1,12 @@
-"dnmduc":
-  - firstname: ["Duc", "D.", "D. N. M. Dang", "Duc Ngoc Minh Dang"]
-    url: https://scholar.google.com/citations?user=2UKP440AAAAJ
+"Dang":
+  - firstname: ["Duc Ngoc Minh"]
+    url: https://dnmduc.github.io/
 
-"namphuongtran9196":
-  - firstname: ["Nam", "N.", "N. P. Tran", "Nam Phuong Tran"]
-    url: https://scholar.google.com/citations?user=NKbwDD8AAAAJ
-
-"duongttr":
-  - firstname: ["Duong", "D.", "D. T. Tran", "Duong Thanh Tran"]
+"Tran":
+  - firstname: ["Phuong-Nam"]
+    url: https://namphuongtran9196.github.io/
+  - firstname: ["Duong Thanh"]
     url: https://scholar.google.com/citations?user=kz_chQ4AAAAJ
 
-"KevinRoller":
-  - firstname: ["Trung", "T.", "T. T. Pham", "Trung Thanh Pham"]
-    url: https://en.wikipedia.org/wiki/Boris_Podolsky
+"Pham":
+  - firstname: ["Trung Thanh"]
