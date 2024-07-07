@@ -4,7 +4,7 @@ permalink: /people/
 title: People
 description: Researchers that I have worked with
 nav: true
-nav_order: 7
+nav_order: 6
 
 profiles:
   - align: right
