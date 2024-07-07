@@ -17,9 +17,9 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-He is an AI researcher with an excellent bachelor’s degree in AI from FPT University. He is skilled in research, data collection, model building, and result evaluation. He is dedicated to pushing boundaries in AI and seeking impactful projects.
+I am currently a `first` year Master Student at the [Department of Integrative Biotechnology](https://skb.skku.edu/eng_gene/index.do), [College of Biotechnology and Bioengineering](https://biotech.skku.edu/eng_biotech/index.do), [Sungkyunkwan University (SKKU)](https://www.skku.edu/eng/), Republic of Korea. I graduated as `valedictorian` with an excellent bachelor’s degree in `Information Technology`, majoring in `Artificial Intelligence` from [FPT University](https://hcmuni.fpt.edu.vn/). I am skilled in research, data collection, model building, and result evaluation. I am dedicated to pushing boundaries in AI and seeking impactful projects.
 
-Research interest: `Artificial Intelligence`, `Machine Learning`, `Deep Learning`, `Computer Vision`, `Image processing`
+Research interest: `Artificial Intelligence`, `Machine Learning`, `Deep Learning`, `Computer Vision`, `Natural Language Processing`
 
 <!-- Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
 

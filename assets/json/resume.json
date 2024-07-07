@@ -24,6 +24,15 @@
   },
   "work": [
     {
+      "name": "Pythera AI, Ho Chi Minh City, Vietnam",
+      "position": "AI Researcher",
+      "url": "https://www.linkedin.com/company/pythera-ai/",
+      "startDate": "2022-09-01",
+      "endDate": "2023-04-01",
+      "summary": "Researching and Developing in the fields of Computer Vision and Natural Language Processing",
+      "highlights": ["Computer Vision", "Natural Language Processing"]
+    },
+    {
       "name": "Skolareach - Reach Scholarship Area",
       "position": "Co-founder - Education Team Leader",
       "url": "https://www.facebook.com/skolareach/",
@@ -39,11 +48,11 @@
       "location": "HCM city, Vietnam",
       "url": "https://hcmuni.fpt.edu.vn/",
       "area": "Information Technology",
-      "studyType": "Bachelor",
+      "studyType": "Bachelor - Graduated as valedictorian",
       "startDate": "2020-12-31",
       "endDate": "2024-3-8",
       "score": "9.2",
-      "courses": ["Artificical Intelligence"]
+      "courses": ["Artificical Intelligence", "Mathematics for Artificical Intelligence"]
     }
   ],
   "awards": [
