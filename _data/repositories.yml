@@ -2,5 +2,6 @@ github_users:
   - ndhieunguyen
 
 github_repos:
+  - nhattruongpham/mol-lang-bridge
   - Chronopt-Research/ViTExCo
   - Chronopt-Research/SwinTExCo
