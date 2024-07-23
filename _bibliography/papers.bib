@@ -16,26 +16,26 @@
   }
 
 @inproceedings{tran2024mol2lang,
-  abbr      = {LPM},
+  abbr      = {Mol2Lang-VLM},
   title     = {<b><i>Mol2Lang-VLM</i></b>: Vision- and Text-Guided Generative Pre-trained Language Models for Advancing Molecule Captioning through Multimodal Fusion},
   author    = {Tran<sup>(†)</sup>, Duong Thanh and Pham<sup>(†)</sup>, Nhat Truong and Nguyen, Nguyen Doan Hieu and Manavalan, Balachandran},
   booktitle = {Proceedings of the Workshop on Language + Molecules},
   pages     = {},
   year      = {2024},
-  abstract  = {This paper introduces Mol2Lang-VLM, an enhanced method for refining generative pre-trained language models for molecule captioning using multimodal features to achieve more accurate caption generation. Our approach leverages the encoder and decoder blocks of the Transformer-based architecture by introducing third sub-layers into both. Specifically, we insert sub-layers in the encoder to fuse features from SELFIES strings and molecular images, while the decoder fuses features from SMILES strings and their corresponding descriptions. Moreover, cross multi-head attention is employed instead of common multi-head attention to enable the decoder to attend to the encoder's output, thereby integrating the encoded contextual information for better and more accurate caption generation. Performance evaluation on the CheBI-20 and L+M-24 benchmark datasets demonstrates Mol2Lang-VLM's superiority, achieving higher accuracy and quality in caption generation compared to existing methods. Our code and pre-processed data are available at <a href="https://github.com/nhattruongpham/mol-lang-bridge/tree/mol2lang">https://github.com/nhattruongpham/mol-lang-bridge/tree/mol2lang/</a>.},
+  abstract  = {This paper introduces Mol2Lang-VLM, an enhanced method for refining generative pre-trained language models for molecule captioning using multimodal features to achieve more accurate caption generation. Our approach leverages the encoder and decoder blocks of the Transformer-based architecture by introducing third sub-layers into both. Specifically, we insert sub-layers in the encoder to fuse features from SELFIES strings and molecular images, while the decoder fuses features from SMILES strings and their corresponding descriptions. Moreover, cross multi-head attention is employed instead of common multi-head attention to enable the decoder to attend to the encoder's output, thereby integrating the encoded contextual information for better and more accurate caption generation. Performance evaluation on the CheBI-20 and L+M-24 benchmark datasets demonstrates Mol2Lang-VLM's superiority, achieving higher accuracy and quality in caption generation compared to existing methods.},
   html      = {},
   code      = {https://github.com/nhattruongpham/mol-lang-bridge/tree/mol2lang},
   preview   = {Mol2Lang-VLM.png}
 }
 
 @inproceedings{nguyen2024lang2mol,
-  abbr      = {LPM},
+  abbr      = {Lang2Mol-Diff},
   title     = {<b><i>Lang2Mol-Diff</i></b>: A Diffusion-Based Generative Model for Language-to-Molecule Translation Leveraging SELFIES Molecular String Representation},
   author    = {Nguyen<sup>(†)</sup>, Nguyen Doan Hieu and Pham<sup>(†)</sup>, Nhat Truong and Tran, Duong Thanh and Manavalan, Balachandran},
   booktitle = {Proceedings of the Workshop on Language + Molecules},
   pages     = {},
   year      = {2024},
-  abstract  = {Generating <i>de novo</i> molecules from textual descriptions is challenging due to potential issues with molecule validity in SMILES representation and limitations of autoregressive models. This work introduces Lang2Mol-Diff, a diffusion-based language-to-molecule generative model using the SELFIES representation. Specifically, Lang2Mol-Diff leverages the strengths of two state-of-the-art molecular generative models: BioT5 and TGM-DLM. By employing BioT5 to tokenize the SELFIES representation, Lang2Mol-Diff addresses the validity issues associated with SMILES strings. Additionally, it incorporates a text diffusion mechanism from TGM-DLM to overcome the limitations of autoregressive models in this domain. To the best of our knowledge, this is the first study to leverage the diffusion mechanism for text-based <i>de novo</i> molecule generation using the SELFIES molecular string representation. Performance evaluation on the L+M-24 benchmark dataset shows that Lang2Mol-Diff outperforms all existing methods for molecule generation in terms of validity. Our code and pre-processed data are available at <a href="https://github.com/nhattruongpham/mol-lang-bridge/tree/lang2mol">https://github.com/nhattruongpham/mol-lang-bridge/tree/lang2mol/</a>.},
+  abstract  = {Generating <i>de novo</i> molecules from textual descriptions is challenging due to potential issues with molecule validity in SMILES representation and limitations of autoregressive models. This work introduces Lang2Mol-Diff, a diffusion-based language-to-molecule generative model using the SELFIES representation. Specifically, Lang2Mol-Diff leverages the strengths of two state-of-the-art molecular generative models: BioT5 and TGM-DLM. By employing BioT5 to tokenize the SELFIES representation, Lang2Mol-Diff addresses the validity issues associated with SMILES strings. Additionally, it incorporates a text diffusion mechanism from TGM-DLM to overcome the limitations of autoregressive models in this domain. To the best of our knowledge, this is the first study to leverage the diffusion mechanism for text-based <i>de novo</i> molecule generation using the SELFIES molecular string representation. Performance evaluation on the L+M-24 benchmark dataset shows that Lang2Mol-Diff outperforms all existing methods for molecule generation in terms of validity.},
   html      = {},
   code      = {https://github.com/nhattruongpham/mol-lang-bridge/tree/lang2mol},
   preview   = {Lang2Mol-Diff.png}
