@@ -63,10 +63,10 @@
   "education": [
     {
       "institution": "Sungkyunkwan University",
-      "location": "Suwon city, Republic of Korea",
+      "location": "Suwon-si, ROK",
       "url": "https://www.skku.edu/",
       "area": "Integrative Biotechnology",
-      "studyType": "PhD.",
+      "studyType": "Combined Master's and Doctoral",
       "startDate": "2024-09-02",
       "endDate": "",
       "score": "",
@@ -160,12 +160,12 @@
     {
       "language": "English",
       "fluency": "Fluent",
-      "icon": "🇪🇳"
+      "icon": "fa-language"
     },
     {
       "language": "Vietnamese",
       "fluency": "Native speaker",
-      "icon": "🇻🇮"
+      "icon": "fa-language"
     }
   ],
   "references": [
