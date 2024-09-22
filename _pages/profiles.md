@@ -18,6 +18,16 @@ profiles:
     image_circular: false # crops the image to make it circular
     more_info:
   - align: left
+    image: about/hanhdn.jpg
+    content: about/hanhdn.md
+    image_circular: false # crops the image to make it circular
+    more_info:
+  - align: right
+    image: about/cuongnt.jpg
+    content: about/cuongnt.md
+    image_circular: false # crops the image to make it circular
+    more_info:
+  - align: left
     image: about/namphuongtran9196.png
     content: about/namphuongtran9196.md
     image_circular: false # crops the image to make it circular
