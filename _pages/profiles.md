@@ -11,7 +11,7 @@ profiles:
     image: about/balachandran.jpg
     content: about/balachandran.md
     image_circular: false # crops the image to make it circular
-    more_info: Assistant Professor
+    more_info: Associate Professor
   - align: right
     image: about/dnmduc.png
     content: about/dnmduc.md
