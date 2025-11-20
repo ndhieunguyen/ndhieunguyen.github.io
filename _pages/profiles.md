@@ -16,7 +16,7 @@ profiles:
     image: about/dnmduc.png
     content: about/dnmduc.md
     image_circular: false # crops the image to make it circular
-    more_info:
+    more_info: Associate Professor
   - align: left
     image: about/hanhdn.jpg
     content: about/hanhdn.md
