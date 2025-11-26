@@ -6,7 +6,7 @@ inline: false
 related_posts: True
 ---
 
-# [XMolCap: Advancing Molecular Captioning Through Multimodal Fusion and Explainable Graph Neural Networks](https://ieeexplore.ieee.org/document/11012653)
+# [XMolCap: Advancing Molecular Captioning Through Multimodal Fusion and Explainable Graph Neural Networks](https://doi.org/10.1109/JBHI.2025.3572910)
 
 Duong Thanh Tran; `Nguyen Doan Hieu Nguyen`; Nhat Truong Pham; Rajan Rakkiyappan; Rajendra Karki; Balachandran Manavalan
 

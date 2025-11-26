@@ -20,6 +20,8 @@ I am currently a `first` year Master Student at the [Department of Integrative B
 Research interest: `Artificial Intelligence`, `Machine Learning`, `Deep Learning`, `Computer Vision`, `Natural Language Processing`
 
 > "Dream is not that which you see while sleeping, it is something that does not let you sleep." - Dr. A.P.J. Abdul Kalam
+> "It's fine to celebrate success, but it is more important to heed the lessons of failure." - Bill Gates
+> "Don’t compare yourself with anyone in this world. If you do so, you are insulting yourself.” - Bill Gates
 
 <!-- Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
 
