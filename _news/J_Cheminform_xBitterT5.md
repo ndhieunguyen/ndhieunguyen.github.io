@@ -1,7 +1,7 @@
 ---
 layout: post
 date: 2025-08-20 12:00:00-0000
-title: A manuscript has been accepted at Journal of Cheminformatics journal.
+title: A manuscript has been accepted at Journal of Cheminformatics.
 inline: false
 related_posts: True
 ---
