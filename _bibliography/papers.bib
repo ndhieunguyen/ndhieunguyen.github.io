@@ -1,3 +1,70 @@
+@article{NGUYEN2025140573,
+title = {Mulaqua: An interpretable multimodal deep learning framework for identifying PMT/vPvM substances in drinking water},
+journal = {Journal of Hazardous Materials},
+volume = {500},
+pages = {140573},
+year = {2025},
+issn = {0304-3894},
+doi = {https://doi.org/10.1016/j.jhazmat.2025.140573},
+url = {https://www.sciencedirect.com/science/article/pii/S0304389425034934},
+author = {Nguyen Doan Hieu Nguyen and Nhat Truong Pham and Hojin Seo and Leyi Wei and Balachandran Manavalan},
+keywords = {PMT/vPvM substances, Water quality, Data augmentation, Multimodal deep learning, Model interpretation},
+abstract = {Drinking water is an essential resource for human health and well-being, still it faces increasing threats from contamination by chemical pollutants. Among the contaminants, persistent, mobile, and toxic (PMT) substances, along with very persistent and very mobile (vPvM) substances, have emerged as chemicals of significant concern due to their harmful effects on human health. Regulatory bodies have recognized them as emerging contaminants requiring stricter monitoring and management practices. Traditional experimental methods for detecting and characterizing these substances are often slow and resource-intensive. Therefore, there is a pressing need to develop efficient computational approaches to detect persistent, mobile, and toxic, or very persistent and very mobile (PMT/vPvM) substances rapidly and economically. Addressing this gap, we proposed Mulaqua, the first deep learning (DL) approach specifically designed for identifying PMT/vPvM substances. Mulaqua utilizes a novel multimodal approach combining molecular string representation with molecular image for the final prediction. To address the data imbalance issue in the training dataset, we employ a data augmentation strategy based on Simplified Molecular Input Line Entry System (SMILES) enumeration, which helped to achieve a balanced performance with the training accuracy (ACC), F1-score (F1), and Matthews correlation coefficient (MCC) score of 0.920, 0.590, and 0.548, respectively. Our study also includes interpretability analyses to elucidate how specific molecular architectures influence PMT/vPvM substances characterization, thereby providing meaningful insights. Mulaqua demonstrates excellent transferability, validated through rigorous evaluation of external datasets, which significantly improves performance compared to the baseline. Unlike previous methods, Mulaqua is now publicly available at https://github.com/cbbl-skku-org/Mulaqua/, holds significant potential as a proactive tool for early hazard identification and regulatory prioritization of PMT/vPvM substances in environmental risk management.}
+}
+
+@Article{Nguyen2025,
+author={Nguyen, Nguyen Doan Hieu
+and Pham, Nhat Truong
+and Tran, Duong Thanh
+and Wei, Leyi
+and Malik, Adeel
+and Manavalan, Balachandran},
+title={xBitterT5: an explainable transformer-based framework with multimodal inputs for identifying bitter-taste peptides},
+journal={Journal of Cheminformatics},
+year={2025},
+month={Aug},
+day={20},
+volume={17},
+number={1},
+pages={127},
+abstract={Bitter peptides (BPs), derived from the hydrolysis of proteins in food, play a crucial role in both food science and biomedicine by influencing taste perception and participating in various physiological processes. Accurate identification of BPs is essential for understanding food quality and potential health impacts. Traditional machine learning approaches for BP identification have relied on conventional feature descriptors, achieving moderate success but struggling with the complexities of biological sequence data. Recent advances utilizing protein language model embedding and meta-learning approaches have improved the accuracy, but frequently neglect the molecular representations of peptides and lack interpretability. In this study, we propose xBitterT5, a novel multimodal and interpretable framework for BP identification that integrates pretrained transformer-based embeddings from BioT5+{\thinspace}with the combination of peptide sequence and its SELFIES molecular representation. Specifically, incorporating both peptide sequences and their molecular strings, xBitterT5 demonstrates superior performance compared to previous methods on the same benchmark datasets. Importantly, the model provides residue-level interpretability, highlighting chemically meaningful substructures that significantly contribute to its bitterness, thus offering mechanistic insights beyond black-box predictions. A user-friendly web server (https://balalab-skku.org/xBitterT5/) and a standalone version (https://github.com/cbbl-skku-org/xBitterT5/) are freely available to support both computational biologists and experimental researchers in peptide-based food and biomedicine.},
+issn={1758-2946},
+doi={10.1186/s13321-025-01078-1},
+url={https://doi.org/10.1186/s13321-025-01078-1}
+}
+
+
+
+@article{TRAN2025101410,
+title = {HyPepTox-Fuse: An interpretable hybrid framework for accurate peptide toxicity prediction fusing protein language model-based embeddings with conventional descriptors},
+journal = {Journal of Pharmaceutical Analysis},
+volume = {15},
+number = {8},
+pages = {101410},
+year = {2025},
+issn = {2095-1779},
+doi = {https://doi.org/10.1016/j.jpha.2025.101410},
+url = {https://www.sciencedirect.com/science/article/pii/S2095177925002278},
+author = {Duong Thanh Tran and Nhat Truong Pham and Nguyen Doan Hieu Nguyen and Leyi Wei and Balachandran Manavalan},
+keywords = {Peptide toxicity, Hybrid framework, Multi-head attention, Transformer, Deep learning, Machine learning, Protein language model},
+abstract = {Peptide-based therapeutics hold great promise for the treatment of various diseases; however, their clinical application is often hindered by toxicity challenges. The accurate prediction of peptide toxicity is crucial for designing safe peptide-based therapeutics. While traditional experimental approaches are time-consuming and expensive, computational methods have emerged as viable alternatives, including similarity-based and machine learning (ML)-/deep learning (DL)-based methods. However, existing methods often struggle with robustness and generalizability. To address these challenges, we propose HyPepTox-Fuse, a novel framework that fuses protein language model (PLM)-based embeddings with conventional descriptors. HyPepTox-Fuse integrates ensemble PLM-based embeddings to achieve richer peptide representations by leveraging a cross-modal multi-head attention mechanism and Transformer architecture. A robust feature ranking and selection pipeline further refines conventional descriptors, thus enhancing prediction performance. Our framework outperforms state-of-the-art methods in cross-validation and independent evaluations, offering a scalable and reliable tool for peptide toxicity prediction. Moreover, we conducted a case study to validate the robustness and generalizability of HyPepTox-Fuse, highlighting its effectiveness in enhancing model performance. Furthermore, the HyPepTox-Fuse server is freely accessible at https://balalab-skku.org/HyPepTox-Fuse/ and the source code is publicly available at https://github.com/cbbl-skku-org/HyPepTox-Fuse/. The study thus presents an intuitive platform for predicting peptide toxicity and supports reproducibility through openly available datasets.}
+}
+
+@ARTICLE{11012653,
+  author={Tran, Duong Thanh and Nguyen, Nguyen Doan Hieu and Pham, Nhat Truong and Rakkiyappan, Rajan and Karki, Rajendra and Manavalan, Balachandran},
+  journal={IEEE Journal of Biomedical and Health Informatics}, 
+  title={XMolCap: Advancing Molecular Captioning Through Multimodal Fusion and Explainable Graph Neural Networks}, 
+  year={2025},
+  volume={29},
+  number={10},
+  pages={7034-7045},
+  abstract={Large language models (LLMs) have significantly advanced computational biology by enabling the integration of molecular, protein, and natural language data to accelerate drug discovery. However, existing molecular captioning approaches often underutilize diverse molecular modalities and lack interpretability. In this study, we introduce XMolCap, a novel explainable molecular captioning framework that integrates molecular images, SMILES strings, and graph-based structures through a stacked multimodal fusion mechanism. The framework is built upon a BioT5-based encoder-decoder architecture, which serves as the backbone for extracting feature representations from SELFIES. By leveraging specialized models such as SwinOCSR, SciBERT, and GIN-MoMu, XMolCap effectively captures complementary information from each modality. Our model not only achieves state-of-the-art performance on two benchmark datasets (L+M-24 and ChEBI-20), outperforming several strong baselines, but also provides detailed, functional group-aware, and property-specific explanations through graph-based interpretation. XMolCap is publicly available at https://github.com/cbbl-skku-org/XMolCap/ for reproducibility and local deployment. We believe it holds strong potential for clinical and pharmaceutical applications by generating accurate, interpretable molecular descriptions that deepen our understanding of molecular properties and interactions.},
+  keywords={Biological system modeling;Feature extraction;Chemicals;Bioinformatics;Accuracy;Training;Data models;Data mining;Transformers;Encoding;Explainable artificial intelligence;graph neural networks;language and molecules;large language models;molecular captioning;model interpretation;multimodal fusion},
+  doi={10.1109/JBHI.2025.3572910},
+  ISSN={2168-2208},
+  month={Oct},}
+
+
 @article{TRAN2024125437,
 abbr={ESWA},
 bibtex_show=True,
