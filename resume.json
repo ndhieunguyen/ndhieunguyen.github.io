@@ -1,12 +1,12 @@
 {
   "basics": {
     "name": "Nguyen Doan Hieu Nguyen",
-    "label": "AI researcher",
+    "label": "Researcher",
     "image": "",
     "email": "ndhieunguyen@skku.edu",
     "phone": "+82 10 4542 2927",
     "url": "https://ndhieunguyen.github.io",
-    "summary": "AI researcher with an excellent bachelor's degree in AI from FPT University. Skilled in research, data collection, model building, and result evaluation. Dedicated to pushing boundaries in AI and seeking impactful projects",
+    "summary": "Nguyen is a second-year Combined Master's & Ph.D. student in Integrative Biotechnology at Sungkyunkwan University, with a strong academic foundation as the Valedictorian in Artificial Intelligence from FPT University, Vietnam. His interests center on deep learning approaches for biological data. He excels in research design, coding, and proposing novel ideas, with a primary focus on computational methods. His long-term goal is to develop innovative deep learning frameworks that contribute meaningfully to computational biology.",
     "location": {
       "address": "Suwon-si, Gyeonggi-do, Republic of Korea",
       "postalCode": "16419",
@@ -25,7 +25,7 @@
   "work": [
     {
       "name": "Computational Biology and Bioinformatics Laboratory",
-      "position": "AI Researcher",
+      "position": "Researcher",
       "url": "https://balalab-skku.org/",
       "startDate": "2024-09-01",
       "endDate": "",
@@ -149,10 +149,16 @@
   ],
   "skills": [
     {
-      "name": "Deep learning",
+      "name": "Technical Skills",
       "level": "Master",
       "icon": "fa-solid fa-hashtag",
-      "keywords": ["Computer Vision", "Natural Language Processing", "Reinforcement Learning"]
+      "keywords": ["Python", "Natural Language Processing", "Computer Vision", "Generative AI"]
+    },
+    {
+      "name": "Research Skills",
+      "level": "Intermediate",
+      "icon": "fa-solid fa-hashtag",
+      "keywords": ["Analyzing", "Data collection", "Critical thinking"]
     }
   ],
   "languages": [
@@ -171,7 +177,7 @@
     {
       "name": "Ph.D. Duc Ngoc Minh Dang",
       "icon": "fa-solid fa-laptop",
-      "reference": "I was mentored by Ph.D. Duc Ngoc Minh Dang in the research of ViTExCo and SwinTExCo, which are two video colorization models"
+      "reference": "I was mentored by Ph.D. Duc Ngoc Minh Dang in the research of ViTExCo and SwinTExCo projects"
     }
   ]
 }

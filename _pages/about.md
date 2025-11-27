@@ -6,24 +6,24 @@ subtitle: AI researcher
 
 profile:
   align: right
-  image: prof_pic.jpg
+  image: ndhieunguyen.jpg
   image_circular: false # crops the image to make it circular
   more_info:
 
 news: true # includes a list of news items
-selected_papers: false # includes a list of papers marked as "selected={true}"
+selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-I am currently a `first` year Master Student at the [Department of Integrative Biotechnology](https://skb.skku.edu/eng_gene/index.do), [College of Biotechnology and Bioengineering](https://biotech.skku.edu/eng_biotech/index.do), [Sungkyunkwan University (SKKU)](https://www.skku.edu/eng/), Republic of Korea. I graduated as `valedictorian` with an excellent bachelor’s degree in `Information Technology`, majoring in `Artificial Intelligence` from [FPT University](https://daihoc.fpt.edu.vn/en/), Vietnam. I am skilled in research, data collection, model building, and result evaluation. I am dedicated to pushing boundaries in AI and seeking impactful projects.
+Nguyen is a second-year Combined Master’s & Ph.D. student in [Integrative Biotechnology](https://skb.skku.edu/eng_gene/index.do) at [Sungkyunkwan University](https://www.skku.edu/eng/), with a strong academic foundation as the `Valedictorian` in Artificial Intelligence from [FPT University](https://daihoc.fpt.edu.vn/en/), Vietnam. His interests center on deep learning approaches for biological data. He excels in research design, coding, and proposing novel ideas, with a primary focus on computational methods. His long-term goal is to develop innovative deep learning frameworks that contribute meaningfully to computational biology.
 
-Research interest: `Artificial Intelligence`, `Machine Learning`, `Deep Learning`, `Computer Vision`, `Natural Language Processing`
+<b>Research interest:</b> Computational biology, Bioinformatics, Deep Learning.
 
-> "It's fine to celebrate success, but it is more important to heed the lessons of failure."
-> — Bill Gates
+> <b>"It's fine to celebrate success, but it is more important to heed the lessons of failure."</b>
+> — _Bill Gates_
 >
-> "Don’t compare yourself with anyone in this world. If you do so, you are insulting yourself.”
-> — Bill Gates
+> <b>"Don’t compare yourself with anyone in this world. If you do so, you are insulting yourself.”</b>
+> — _Bill Gates_
 
 <!-- Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
 
