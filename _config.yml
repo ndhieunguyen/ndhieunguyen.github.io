@@ -2,7 +2,7 @@
 # Site settings
 # -----------------------------------------------------------------------------
 
-title: Nguyen Doan Hieu Nguyen # the website title (if blank, full name will be used instead)
+title: Nguyen # the website title (if blank, full name will be used instead)
 first_name: Nguyen
 middle_name: Doan Hieu
 last_name: Nguyen
@@ -189,7 +189,7 @@ collections:
 announcements:
   enabled: true
   scrollable: true # adds a vertical scroll bar if there are more than 3 news items
-  limit: 5 # leave blank to include all the news in the `_news` folder
+  limit: 3 # leave blank to include all the news in the `_news` folder
 
 latest_posts:
   enabled: false

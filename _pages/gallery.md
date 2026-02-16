@@ -1,6 +1,6 @@
 ---
 layout: page
-title: gallery
+title: Gallery
 permalink: /gallery/
 description: A collection of events and memories.
 nav: true
