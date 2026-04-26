@@ -6,7 +6,13 @@ layout: page
     {% if page.profiles %}
       {% for profile in page.profiles %}
         <hr>
-        <div class="profile float-{% if profile.align == 'left' %}left{% else %}right{% endif %}">
+        <div
+          {% if profile.content %}
+            {% assign profile_id = profile.content | split: '/' | last | split: '.' | first %}
+            id="{{ profile_id }}"
+          {% endif %}
+          class="profile float-{% if profile.align == 'left' %}left{% else %}right{% endif %}"
+        >
           {% if profile.image %}
             {% assign profile_image_path = profile.image | prepend: 'assets/img/' %}
             {% if profile.image_circular %}

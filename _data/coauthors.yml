@@ -1,13 +1,43 @@
-"Dang":
+"dang":
   - firstname: ["Duc Ngoc Minh"]
-    url: https://dnmduc.github.io/
+    url: /people/#dnmduc
+  - firstname: ["Cuong Tuan"]
+    url: /people/#cuongnt
 
-"Tran":
+"tran":
   - firstname: ["Phuong-Nam"]
-    url: https://namphuongtran9196.github.io/
+    url: /people/#namphuongtran9196
   - firstname: ["Duong Thanh"]
-    url: https://scholar.google.com/citations?user=kz_chQ4AAAAJ
+    url: /people/#duongttr
+  - firstname: ["Trung Thanh"]
+    url: /people/#trungpt
 
-"Pham":
+"pham":
   - firstname: ["Nhat Truong"]
-    url: https://scholar.google.com/citations?user=HybH2XkAAAAJ&hl=enhttps://scholar.google.com/citations?user=HybH2XkAAAAJ&hl=en
+    url: /people/#nhattruongpham
+  - firstname: ["Trung Thanh"]
+    url: /people/#trungpt
+
+"seo":
+  - firstname: ["Hojin"]
+    url: /people/
+
+"wei":
+  - firstname: ["Leyi"]
+    url: /people/#leyiwei
+
+"manavalan":
+  - firstname: ["Balachandran"]
+    url: /people/#balachandran
+
+"vu":
+  - firstname: ["Thuy-Duong Thi"]
+    url: /people/
+
+"rakkiyappan":
+  - firstname: ["Rajan"]
+    url: /people/
+
+"karki":
+  - firstname: ["Rajendra"]
+    url: /people/

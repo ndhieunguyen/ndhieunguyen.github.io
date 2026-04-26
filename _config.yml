@@ -369,6 +369,9 @@ more_authors_animation_delay: 2 # more authors are revealed on click using anima
 # Enables publication thumbnails. If disabled, none of the publications will display thumbnails, even if specified in the bib entry.
 enable_publication_thumbnails: true
 
+# Publication journal metrics (Impact Factor and JCR Ranking)
+enable_publication_journal_metrics: true
+
 # -----------------------------------------------------------------------------
 # Jekyll Link Attributes
 # -----------------------------------------------------------------------------

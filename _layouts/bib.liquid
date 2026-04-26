@@ -170,6 +170,19 @@
       {{ entry.note | strip }}
     </div>
 
+    {% if site.enable_publication_journal_metrics %}
+      {% if entry.journal_if or entry.journal_jcr %}
+        <div class="periodical">
+          {% if entry.journal_if %}
+            <span class="badge badge-light text-dark border" title="Journal Impact Factor">IF: {{ entry.journal_if }}</span>
+          {% endif %}
+          {% if entry.journal_jcr %}
+            <span class="badge badge-light text-dark border" title="JCR Ranking"> {{ entry.journal_jcr }}</span>
+          {% endif %}
+        </div>
+      {% endif %}
+    {% endif %}
+
     <!-- Links/Buttons -->
     <div class="links">
       {% if entry.award %}

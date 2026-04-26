@@ -16,7 +16,7 @@ profiles:
     image: about/dnmduc.png
     content: about/dnmduc.md
     image_circular: false # crops the image to make it circular
-    more_info: Associate Professor
+    more_info: Associate Professor, FPT University, Ho Chi Minh Campus.
   - align: left
     image: about/nhattruongpham.png
     content: about/nhattruongpham.md
