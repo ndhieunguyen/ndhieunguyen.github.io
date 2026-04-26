@@ -35,6 +35,20 @@ layout: default
         {% if page.profile.more_info %}
           <div class="more-info">{{ page.profile.more_info }}</div>
         {% endif %}
+        <div class="scopus-metrics mt-3 p-2 border rounded bg-light" style="font-size: 0.9rem;">
+          <div class="font-weight-bold mb-1">Scopus Metrics</div>
+          <div>h-index: <span class="badge badge-primary">3</span></div>
+          <div>Citations: <span class="badge badge-info">25</span></div>
+          <div class="mt-1">
+            <a
+              href="https://www.scopus.com/authid/detail.uri?authorId=58875330500"
+              target="_blank"
+              class="btn btn-sm btn-outline-dark p-1"
+              style="font-size: 0.7rem;"
+              >Scopus Profile</a
+            >
+          </div>
+        </div>
       </div>
     {% endif %}
 

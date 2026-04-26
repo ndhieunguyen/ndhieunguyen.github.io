@@ -194,6 +194,9 @@
           {% if j_jcr_pub != blank and j_jcr_pub != j_jcr_latest %}
             <span class="badge badge-light text-dark border" title="JCR ranking at publication year">{{ j_jcr_pub }} ({{ entry.year }})</span>
           {% endif %}
+          {% if entry.fwci %}
+            <span class="badge badge-light text-dark border" title="Field-Weighted Citation Impact">FWCI: {{ entry.fwci }}</span>
+          {% endif %}
         </div>
       {% endif %}
     {% endif %}
