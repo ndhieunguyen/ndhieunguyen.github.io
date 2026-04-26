@@ -171,13 +171,28 @@
     </div>
 
     {% if site.enable_publication_journal_metrics %}
-      {% if entry.journal_if or entry.journal_jcr %}
+      {% assign journal_info = site.data.journal_metrics[entry.journal] %}
+      {% assign pub_year = entry.year | append: '' %}
+
+      {% assign j_if_latest = entry.journal_if | default: journal_info.latest.if %}
+      {% assign j_jcr_latest = entry.journal_jcr | default: journal_info.latest.jcr %}
+
+      {% assign j_if_pub = journal_info[pub_year].if %}
+      {% assign j_jcr_pub = journal_info[pub_year].jcr %}
+
+      {% if j_if_latest or j_if_pub %}
         <div class="periodical">
-          {% if entry.journal_if %}
-            <span class="badge badge-light text-dark border" title="Journal Impact Factor">IF: {{ entry.journal_if }}</span>
+          {% if j_if_latest %}
+            <span class="badge badge-light text-dark border" title="Latest IF">IF: {{ j_if_latest }} (latest)</span>
           {% endif %}
-          {% if entry.journal_jcr %}
-            <span class="badge badge-light text-dark border" title="JCR Ranking"> {{ entry.journal_jcr }}</span>
+          {% if j_if_pub and j_if_pub != j_if_latest %}
+            <span class="badge badge-light text-dark border" title="IF at publication year">IF: {{ j_if_pub }} ({{ entry.year }})</span>
+          {% endif %}
+          {% if j_jcr_latest %}
+            <span class="badge badge-light text-dark border" title="Latest JCR ranking">{{ j_jcr_latest }} (latest)</span>
+          {% endif %}
+          {% if j_jcr_pub and j_jcr_pub != j_jcr_latest %}
+            <span class="badge badge-light text-dark border" title="JCR ranking at publication year">{{ j_jcr_pub }} ({{ entry.year }})</span>
           {% endif %}
         </div>
       {% endif %}
