@@ -1,15 +1,13 @@
 {
   "IEEE Journal of Biomedical and Health Informatics": {
     "2025": {
-      "jcr": "",
-      "if": ""
+      "jcr": "Q1",
+      "if": "6.8"
     },
     "latest": {
-      "jcr": "",
-      "if": ""
-    },
-    "jcr": "Q1",
-    "if": "6.8"
+      "jcr": "Q1",
+      "if": "6.8"
+    }
   },
   "Journal of Pharmaceutical Analysis": {
     "2025": {
@@ -19,21 +17,17 @@
     "latest": {
       "jcr": "Q1",
       "if": "8.9"
-    },
-    "jcr": "Q1",
-    "if": "8.9"
+    }
   },
   "Expert Systems with Applications": {
     "2024": {
-      "jcr": "",
-      "if": ""
+      "jcr": "Q1",
+      "if": "7.5"
     },
     "latest": {
-      "jcr": "",
-      "if": ""
-    },
-    "jcr": "Q1",
-    "if": "7.5"
+      "jcr": "Q1",
+      "if": "7.5"
+    }
   },
   "Journal of Cheminformatics": {
     "2025": {
@@ -43,9 +37,7 @@
     "latest": {
       "jcr": "Q1",
       "if": "5.7"
-    },
-    "jcr": "Q1",
-    "if": "5.7"
+    }
   },
   "Journal of Hazardous Materials": {
     "2025": {
@@ -55,8 +47,6 @@
     "latest": {
       "jcr": "Q1",
       "if": "12.2"
-    },
-    "jcr": "Q1",
-    "if": "11.3"
+    }
   }
 }
