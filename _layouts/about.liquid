@@ -35,18 +35,28 @@ layout: default
         {% if page.profile.more_info %}
           <div class="more-info">{{ page.profile.more_info }}</div>
         {% endif %}
-        <div class="scopus-metrics mt-3 p-2 border rounded bg-light" style="font-size: 0.9rem;">
-          <div class="font-weight-bold mb-1">Scopus Metrics</div>
-          <div>h-index: <span class="badge badge-primary">3</span></div>
-          <div>Citations: <span class="badge badge-info">25</span></div>
-          <div class="mt-1">
+        <div
+          class="scopus-metrics mt-4 p-3 border rounded shadow-sm"
+          style="background-color: var(--global-code-bg-color); border-color: var(--global-divider-color) !important;"
+        >
+          <h6 class="mb-3" style="color: var(--global-theme-color); font-weight: 600;"><i class="fas fa-chart-line mr-2"></i>Scopus Metrics</h6>
+          <div class="d-flex justify-content-between mb-2">
+            <span><i class="fas fa-graduation-cap mr-2"></i>h-index:</span>
+            <span class="font-weight-bold" style="color: var(--global-theme-color);">3</span>
+          </div>
+          <div class="d-flex justify-content-between mb-3">
+            <span><i class="fas fa-quote-right mr-2"></i>Citations:</span>
+            <span class="font-weight-bold" style="color: var(--global-theme-color);">25</span>
+          </div>
+          <div class="text-center">
             <a
               href="https://www.scopus.com/authid/detail.uri?authorId=58875330500"
               target="_blank"
-              class="btn btn-sm btn-outline-dark p-1"
-              style="font-size: 0.7rem;"
-              >Scopus Profile</a
+              class="btn btn-sm z-depth-0 w-100"
+              style="background-color: var(--global-theme-color); color: var(--global-bg-color); font-size: 0.75rem; text-transform: uppercase; font-weight: 600;"
             >
+              <i class="fas fa-external-link-alt mr-1"></i>Scopus Profile
+            </a>
           </div>
         </div>
       </div>
