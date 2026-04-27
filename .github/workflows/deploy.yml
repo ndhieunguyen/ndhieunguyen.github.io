@@ -79,6 +79,7 @@ jobs:
         run: |
           sudo apt-get update && sudo apt-get install -y imagemagick
           python3 bin/update_metrics.py
+          python3 bin/update_scholar.py
           pip3 install --upgrade jupyter
           export JEKYLL_ENV=production
           bundle exec jekyll build
