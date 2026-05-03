@@ -133,11 +133,28 @@ layout: page
             if (clickedId) {
               var targetElem = document.getElementById(clickedId);
               if (targetElem) {
-                targetElem.scrollIntoView({ behavior: 'smooth', block: 'start' });
+                history.pushState(null, null, '#' + clickedId);
+                targetElem.scrollIntoView({ behavior: 'smooth', block: 'center' });
               }
             }
           }
         });
+
+        // Smooth scroll center for anchor links and hash navigation
+        function centerHashElement() {
+          var hash = window.location.hash;
+          if (hash) {
+            var targetElem = document.getElementById(hash.substring(1));
+            if (targetElem) {
+              targetElem.scrollIntoView({ behavior: 'smooth', block: 'center' });
+            }
+          }
+        }
+
+        window.addEventListener('hashchange', centerHashElement);
+        if (window.location.hash) {
+          setTimeout(centerHashElement, 400);
+        }
 
         window.addEventListener('resize', function() {
           myChart.resize();
