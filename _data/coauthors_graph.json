@@ -1,0 +1,189 @@
+{
+  "nodes": [
+    {
+      "id": "Nguyen Doan Hieu Nguyen",
+      "name": "Nguyen Doan Hieu Nguyen",
+      "symbolSize": 50,
+      "value": 8,
+      "category": 0
+    },
+    {
+      "id": "Nhat Truong Pham",
+      "name": "Nhat Truong Pham",
+      "symbolSize": 51,
+      "value": 6,
+      "category": 1
+    },
+    {
+      "id": "Hojin Seo",
+      "name": "Hojin Seo",
+      "symbolSize": 21,
+      "value": 1,
+      "category": 1
+    },
+    {
+      "id": "Leyi Wei",
+      "name": "Leyi Wei",
+      "symbolSize": 33,
+      "value": 3,
+      "category": 1
+    },
+    {
+      "id": "Balachandran Manavalan",
+      "name": "Balachandran Manavalan",
+      "symbolSize": 51,
+      "value": 6,
+      "category": 1
+    },
+    {
+      "id": "Duong Thanh Tran",
+      "name": "Duong Thanh Tran",
+      "symbolSize": 57,
+      "value": 7,
+      "category": 1
+    },
+    {
+      "id": "Adeel Malik",
+      "name": "Adeel Malik",
+      "symbolSize": 21,
+      "value": 1,
+      "category": 1
+    },
+    {
+      "id": "Rajan Rakkiyappan",
+      "name": "Rajan Rakkiyappan",
+      "symbolSize": 21,
+      "value": 1,
+      "category": 1
+    },
+    {
+      "id": "Rajendra Karki",
+      "name": "Rajendra Karki",
+      "symbolSize": 21,
+      "value": 1,
+      "category": 1
+    },
+    {
+      "id": "Trung Thanh Pham",
+      "name": "Trung Thanh Pham",
+      "symbolSize": 27,
+      "value": 2,
+      "category": 1
+    },
+    {
+      "id": "Phuong-Nam Tran",
+      "name": "Phuong-Nam Tran",
+      "symbolSize": 27,
+      "value": 2,
+      "category": 1
+    },
+    {
+      "id": "Thuy-Duong Thi Vu",
+      "name": "Thuy-Duong Thi Vu",
+      "symbolSize": 27,
+      "value": 2,
+      "category": 1
+    },
+    {
+      "id": "Cuong Tuan Nguyen",
+      "name": "Cuong Tuan Nguyen",
+      "symbolSize": 21,
+      "value": 1,
+      "category": 1
+    },
+    {
+      "id": "Hanh Dang-Ngoc",
+      "name": "Hanh Dang-Ngoc",
+      "symbolSize": 21,
+      "value": 1,
+      "category": 1
+    },
+    {
+      "id": "Duc Ngoc Minh Dang",
+      "name": "Duc Ngoc Minh Dang",
+      "symbolSize": 27,
+      "value": 2,
+      "category": 1
+    }
+  ],
+  "links": [
+    {
+      "source": "Nguyen Doan Hieu Nguyen",
+      "target": "Nhat Truong Pham",
+      "value": 6
+    },
+    {
+      "source": "Nguyen Doan Hieu Nguyen",
+      "target": "Hojin Seo",
+      "value": 1
+    },
+    {
+      "source": "Nguyen Doan Hieu Nguyen",
+      "target": "Leyi Wei",
+      "value": 3
+    },
+    {
+      "source": "Nguyen Doan Hieu Nguyen",
+      "target": "Balachandran Manavalan",
+      "value": 6
+    },
+    {
+      "source": "Nguyen Doan Hieu Nguyen",
+      "target": "Duong Thanh Tran",
+      "value": 7
+    },
+    {
+      "source": "Nguyen Doan Hieu Nguyen",
+      "target": "Adeel Malik",
+      "value": 1
+    },
+    {
+      "source": "Nguyen Doan Hieu Nguyen",
+      "target": "Rajan Rakkiyappan",
+      "value": 1
+    },
+    {
+      "source": "Nguyen Doan Hieu Nguyen",
+      "target": "Rajendra Karki",
+      "value": 1
+    },
+    {
+      "source": "Nguyen Doan Hieu Nguyen",
+      "target": "Trung Thanh Pham",
+      "value": 2
+    },
+    {
+      "source": "Nguyen Doan Hieu Nguyen",
+      "target": "Phuong-Nam Tran",
+      "value": 2
+    },
+    {
+      "source": "Nguyen Doan Hieu Nguyen",
+      "target": "Thuy-Duong Thi Vu",
+      "value": 2
+    },
+    {
+      "source": "Nguyen Doan Hieu Nguyen",
+      "target": "Cuong Tuan Nguyen",
+      "value": 1
+    },
+    {
+      "source": "Nguyen Doan Hieu Nguyen",
+      "target": "Hanh Dang-Ngoc",
+      "value": 1
+    },
+    {
+      "source": "Nguyen Doan Hieu Nguyen",
+      "target": "Duc Ngoc Minh Dang",
+      "value": 2
+    }
+  ],
+  "categories": [
+    {
+      "name": "Self"
+    },
+    {
+      "name": "Co-authors"
+    }
+  ]
+}
