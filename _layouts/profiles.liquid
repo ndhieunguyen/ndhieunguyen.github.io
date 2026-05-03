@@ -33,6 +33,10 @@ layout: page
 
         // Define clean, curated color palettes
         var colors = ['#ff6f61', '#42a5f5'];
+        var categories = data.categories.map(function (cat, i) {
+          cat.itemStyle = { color: colors[i % colors.length] };
+          return cat;
+        });
 
         var option = {
           tooltip: {
@@ -45,7 +49,7 @@ layout: page
             }
           },
           legend: [{
-            data: data.categories.map(function (a) {
+            data: categories.map(function (a) {
               return a.name;
             }),
             textStyle: {
@@ -60,7 +64,6 @@ layout: page
               layout: 'force',
               data: data.nodes.map(function (node) {
                 node.itemStyle = {
-                  color: colors[node.category % colors.length],
                   borderColor: 'var(--global-bg-color)',
                   borderWidth: 2,
                   shadowBlur: 5,
@@ -83,7 +86,7 @@ layout: page
                 };
                 return link;
               }),
-              categories: data.categories,
+              categories: categories,
               roam: true,
               labelLayout: {
                 hideOverlap: true
@@ -99,6 +102,42 @@ layout: page
         };
 
         myChart.setOption(option);
+
+        myChart.on('click', function(params) {
+          if (params.dataType === 'node') {
+            var authorName = params.data.name;
+            var nameToId = {
+              'Balachandran Manavalan': 'balachandran',
+              'Duc Ngoc Minh Dang': 'dnmduc',
+              'Nhat Truong Pham': 'nhattruongpham',
+              'Duong Thanh Tran': 'duongttr',
+              'Leyi Wei': 'leyiwei',
+              'Nam Phuong Tran': 'namphuongtran9196',
+              'Trung Thanh Pham': 'trungpt',
+              'Hanh Dang-Ngoc': 'hanhdn',
+              'Hanh Do Ngoc': 'hanhdn',
+              'Cuong Tuan Nguyen': 'cuongnt'
+            };
+
+            var clickedId = nameToId[authorName];
+            if (!clickedId) {
+              var lowerName = authorName.toLowerCase().replace(/[^a-z0-9]/g, '');
+              var allProfiles = document.querySelectorAll('.profile');
+              allProfiles.forEach(function(p) {
+                if (p.id && (lowerName.includes(p.id) || p.id.includes(lowerName))) {
+                  clickedId = p.id;
+                }
+              });
+            }
+
+            if (clickedId) {
+              var targetElem = document.getElementById(clickedId);
+              if (targetElem) {
+                targetElem.scrollIntoView({ behavior: 'smooth', block: 'start' });
+              }
+            }
+          }
+        });
 
         window.addEventListener('resize', function() {
           myChart.resize();
