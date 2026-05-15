@@ -271,7 +271,8 @@
       {% assign entry_has_altmetric_badge = entry.altmetric or entry.doi or  entry.eprint or entry.pmid or entry.isbn %}
       {% assign entry_has_dimensions_badge = entry.dimensions or entry.doi or entry.pmid %}
       {% assign entry_has_google_scholar_badge = entry.google_scholar_id %}
-      {% if entry_has_altmetric_badge or entry_has_dimensions_badge or entry_has_google_scholar_badge %}
+      {% assign entry_has_plumx_badge = entry.plumx or entry.doi or entry.pmid or entry.isbn %}
+      {% if entry_has_altmetric_badge or entry_has_dimensions_badge or entry_has_google_scholar_badge or entry_has_plumx_badge %}
         <div class="badges">
           {% if site.enable_publication_badges.altmetric and entry_has_altmetric_badge %}
             <span
@@ -304,10 +305,20 @@
                 data-id="{{ entry.dimensions }}"
               {% endif %}
               data-hide-zero-citations="true"
-              data-style="small_rectangle"
+              data-style="medium_circle"
               data-legend="hover-right"
               style="margin-bottom: 3px;"
             ></span>
+          {% endif %}
+          {% if site.enable_publication_badges.plumx and entry_has_plumx_badge %}
+            <a
+              href="https://plu.mx/plum/a/?{% if entry.doi %}doi={{ entry.doi }}{% elsif entry.pmid %}pmid={{ entry.pmid }}{% elsif entry.isbn %}isbn={{ entry.isbn }}{% elsif entry.plumx %}plumx={{ entry.plumx }}{% endif %}"
+              class="plumx-badge"
+              data-site="plum"
+              data-badge-type="artifact"
+              data-hide-when-empty="true"
+              style="margin-bottom: 3px;"
+            ></a>
           {% endif %}
           {% if site.enable_publication_badges.google_scholar and entry_has_google_scholar_badge %}
             <a
