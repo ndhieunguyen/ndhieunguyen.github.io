@@ -284,7 +284,6 @@
             <span
               class="altmetric-embed"
               data-hide-no-mentions="true"
-              data-hide-less-than="1"
               data-badge-type="donut"
               data-badge-popover="right"
               {% if entry.eprint %}
@@ -298,6 +297,7 @@
               {% elsif entry.isbn %}
                 data-isbn="{{ entry.isbn }}"
               {% endif %}
+              style="margin-bottom: 3px;"
             ></span>
           {% endif %}
           {% if site.enable_publication_badges.dimensions and entry_has_dimensions_badge %}
@@ -321,6 +321,7 @@
               href="https://inspirehep.net/literature/{{ entry.inspirehep_id }}"
               aria-label="InspireHEP link"
               role="button"
+              style="margin-bottom: 3px;"
             >
               <img
                 src="https://img.shields.io/badge/inspire-{{ entry.citation_count | default: '0' }}-003188?logo=inspec&labelColor=beige"
@@ -346,6 +347,7 @@
               href="https://scholar.google.com/citations?view_op=view_citation&hl=en&user={{ site.scholar_userid }}&citation_for_view={{ site.scholar_userid }}:{{ entry.google_scholar_id }}"
               aria-label="Google Scholar link"
               role="button"
+              style="margin-bottom: 3px;"
             >
               <img
                 src="https://img.shields.io/badge/scholar-{% google_scholar_citations site.scholar_userid entry.google_scholar_id %}-4285F4?logo=googlescholar&labelColor=beige"
