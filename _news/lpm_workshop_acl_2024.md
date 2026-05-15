@@ -1,7 +1,7 @@
 ---
 layout: post
 date: 2024-08-12 03:36:00-0000
-title: 2 papers are accepted in Association for Computational Linguistics
+title: 📄 2 papers are accepted in Association for Computational Linguistics
 inline: false
 related_posts: True
 ---

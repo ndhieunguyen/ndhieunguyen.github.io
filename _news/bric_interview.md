@@ -1,7 +1,7 @@
 ---
 layout: post
 date: 2025-11-21 12:00:00-0000
-title: I was interviewed by BRIC (Hanbitsa) regarding our Mulaqua research.
+title: 🎤 I was interviewed by BRIC (Hanbitsa) regarding our Mulaqua research.
 inline: false
 related_posts: True
 ---

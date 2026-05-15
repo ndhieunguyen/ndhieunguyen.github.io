@@ -1,7 +1,7 @@
 ---
 layout: post
 date: 2026-02-13 12:00:00-0000
-title: I have been selected for the Caregen Jung Yong-ji Scholarship.
+title: 🎓 I have been selected for the Caregen Jung Yong-ji Scholarship.
 inline: false
 related_posts: True
 ---

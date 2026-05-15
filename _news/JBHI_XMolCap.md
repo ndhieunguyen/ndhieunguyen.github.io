@@ -1,7 +1,7 @@
 ---
 layout: post
 date: 2025-05-23 12:00:00-0000
-title: A collaborative manuscript has been accepted at IEEE Journal of Biomedical and Health Informatics .
+title: 📄 A collaborative manuscript has been accepted at IEEE Journal of Biomedical and Health Informatics .
 inline: false
 related_posts: True
 ---

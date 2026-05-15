@@ -1,7 +1,7 @@
 ---
 layout: post
 date: 2025-05-23 12:00:00-0000
-title: A collaborative manuscript has been accepted at Journal of Pharmaceutical Analysis.
+title: 📄 A collaborative manuscript has been accepted at Journal of Pharmaceutical Analysis.
 inline: false
 related_posts: True
 ---

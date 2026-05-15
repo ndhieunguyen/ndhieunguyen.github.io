@@ -1,7 +1,7 @@
 ---
 layout: post
 date: 2025-11-25 12:00:00-0000
-title: A manuscript has been accepted at Journal of Hazardous Materials.
+title: 📄 A manuscript has been accepted at Journal of Hazardous Materials.
 inline: false
 related_posts: True
 ---

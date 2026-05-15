@@ -1,7 +1,7 @@
 ---
 layout: post
 date: 2024-09-22 12:00:00-0000
-title: A manuscript has been accepted at Expert Systems with Applications.
+title: 📄 A manuscript has been accepted at Expert Systems with Applications.
 inline: false
 related_posts: True
 ---
