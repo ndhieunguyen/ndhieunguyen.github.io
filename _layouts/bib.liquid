@@ -272,14 +272,20 @@
       {% assign entry_has_dimensions_badge = entry.dimensions or entry.doi or entry.pmid %}
       {% assign entry_has_google_scholar_badge = entry.google_scholar_id %}
       {% assign entry_has_plumx_badge = entry.plumx or entry.doi or entry.pmid or entry.isbn %}
-      {% if entry_has_altmetric_badge or entry_has_dimensions_badge or entry_has_google_scholar_badge or entry_has_plumx_badge %}
+      {% assign entry_has_inspirehep_badge = entry.inspirehep_id %}
+      {% if entry_has_altmetric_badge
+        or entry_has_dimensions_badge
+        or entry_has_google_scholar_badge
+        or entry_has_plumx_badge
+        or entry_has_inspirehep_badge
+      %}
         <div class="badges">
           {% if site.enable_publication_badges.altmetric and entry_has_altmetric_badge %}
             <span
               class="altmetric-embed"
               data-hide-no-mentions="true"
-              data-hide-less-than="15"
-              data-badge-type="2"
+              data-hide-less-than="1"
+              data-badge-type="donut"
               data-badge-popover="right"
               {% if entry.eprint %}
                 data-arxiv-id="{{ entry.eprint }}"
@@ -301,7 +307,7 @@
                 data-doi="{{ entry.doi }}"
               {% elsif entry.pmid %}
                 data-pmid="{{ entry.pmid }}"
-              {% else %}
+              {% elsif entry.dimensions and entry.dimensions != 'true' and entry.dimensions != true %}
                 data-id="{{ entry.dimensions }}"
               {% endif %}
               data-hide-zero-citations="true"
@@ -309,6 +315,18 @@
               data-legend="hover-right"
               style="margin-bottom: 3px;"
             ></span>
+          {% endif %}
+          {% if site.enable_publication_badges.inspirehep and entry_has_inspirehep_badge %}
+            <a
+              href="https://inspirehep.net/literature/{{ entry.inspirehep_id }}"
+              aria-label="InspireHEP link"
+              role="button"
+            >
+              <img
+                src="https://img.shields.io/badge/inspire-{{ entry.citation_count | default: '0' }}-003188?logo=inspec&labelColor=beige"
+                alt="InspireHEP citations"
+              >
+            </a>
           {% endif %}
           {% if site.enable_publication_badges.plumx and entry_has_plumx_badge %}
             <a
