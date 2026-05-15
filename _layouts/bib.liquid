@@ -305,7 +305,7 @@
                 data-id="{{ entry.dimensions }}"
               {% endif %}
               data-hide-zero-citations="true"
-              data-style="medium_circle"
+              data-style="small_circle"
               data-legend="hover-right"
               style="margin-bottom: 3px;"
             ></span>
@@ -313,9 +313,11 @@
           {% if site.enable_publication_badges.plumx and entry_has_plumx_badge %}
             <a
               href="https://plu.mx/plum/a/?{% if entry.doi %}doi={{ entry.doi }}{% elsif entry.pmid %}pmid={{ entry.pmid }}{% elsif entry.isbn %}isbn={{ entry.isbn }}{% elsif entry.plumx %}plumx={{ entry.plumx }}{% endif %}"
-              class="plumx-badge"
+              class="plumx-plum-print-popup"
               data-site="plum"
               data-badge-type="artifact"
+              data-size="small"
+              data-popup="right"
               data-hide-when-empty="true"
               style="margin-bottom: 3px;"
             ></a>
