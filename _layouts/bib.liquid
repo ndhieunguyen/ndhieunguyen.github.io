@@ -299,7 +299,7 @@
               class="__dimensions_badge_embed__"
               {% if entry.doi %}
                 data-doi="{{ entry.doi }}"
-              {% else %}
+              {% elsif entry.pmid %}
                 data-pmid="{{ entry.pmid }}"
               {% else %}
                 data-id="{{ entry.dimensions }}"
@@ -320,7 +320,8 @@
               data-popup="right"
               data-hide-when-empty="true"
               style="margin-bottom: 3px;"
-            ></a>
+              >&nbsp;</a
+            >
           {% endif %}
           {% if site.enable_publication_badges.google_scholar and entry_has_google_scholar_badge %}
             <a
