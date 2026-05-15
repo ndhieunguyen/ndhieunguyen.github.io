@@ -308,8 +308,8 @@ display_categories: ["blockquotes"] # these categories will be displayed on the 
 # -----------------------------------------------------------------------------
 
 scholar:
-  last_name: [Doan Hieu Nguyen]
-  first_name: [Nguyen]
+  last_name: [Nguyen, Doan Hieu Nguyen]
+  first_name: [Nguyen Doan Hieu, Nguyen]
 
   style: apa
   locale: en
