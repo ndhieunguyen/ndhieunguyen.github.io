@@ -268,10 +268,26 @@
       {% endif %}
     </div>
     {% if site.enable_publication_badges %}
-      {% assign entry_has_altmetric_badge = entry.altmetric or entry.doi or  entry.eprint or entry.pmid or entry.isbn %}
-      {% assign entry_has_dimensions_badge = entry.dimensions or entry.doi or entry.pmid %}
+      {% assign badge_doi = entry.doi
+        | remove: 'https://doi.org/'
+        | remove: 'http://doi.org/'
+        | remove: 'https://dx.doi.org/'
+        | remove: 'http://dx.doi.org/'
+        | strip
+      %}
+      {% assign entry_has_altmetric_badge = false %}
+      {% if entry.altmetric or badge_doi != blank or entry.eprint or entry.pmid or entry.isbn %}
+        {% assign entry_has_altmetric_badge = true %}
+      {% endif %}
+      {% assign entry_has_dimensions_badge = false %}
+      {% if entry.dimensions or badge_doi != blank or entry.pmid %}
+        {% assign entry_has_dimensions_badge = true %}
+      {% endif %}
       {% assign entry_has_google_scholar_badge = entry.google_scholar_id %}
-      {% assign entry_has_plumx_badge = entry.plumx or entry.doi or entry.pmid or entry.isbn %}
+      {% assign entry_has_plumx_badge = false %}
+      {% if entry.plumx or badge_doi != blank or entry.pmid or entry.isbn %}
+        {% assign entry_has_plumx_badge = true %}
+      {% endif %}
       {% assign entry_has_inspirehep_badge = entry.inspirehep_id %}
       {% if entry_has_altmetric_badge
         or entry_has_dimensions_badge
@@ -288,8 +304,8 @@
               data-badge-popover="right"
               {% if entry.eprint %}
                 data-arxiv-id="{{ entry.eprint }}"
-              {% elsif entry.doi %}
-                data-doi="{{ entry.doi }}"
+              {% elsif badge_doi != blank %}
+                data-doi="{{ badge_doi }}"
               {% elsif entry.altmetric %}
                 data-altmetric-id="{{ entry.altmetric }}"
               {% elsif entry.pmid %}
@@ -303,8 +319,8 @@
           {% if site.enable_publication_badges.dimensions and entry_has_dimensions_badge %}
             <span
               class="__dimensions_badge_embed__"
-              {% if entry.doi %}
-                data-doi="{{ entry.doi }}"
+              {% if badge_doi != blank %}
+                data-doi="{{ badge_doi }}"
               {% elsif entry.pmid %}
                 data-pmid="{{ entry.pmid }}"
               {% elsif entry.dimensions and entry.dimensions != 'true' and entry.dimensions != true %}
@@ -331,16 +347,15 @@
           {% endif %}
           {% if site.enable_publication_badges.plumx and entry_has_plumx_badge %}
             <a
-              href="https://plu.mx/plum/a/?{% if entry.doi %}doi={{ entry.doi | cgi_escape }}{% elsif entry.pmid %}pmid={{ entry.pmid }}{% elsif entry.isbn %}isbn={{ entry.isbn }}{% elsif entry.plumx %}plumx={{ entry.plumx }}{% endif %}"
+              href="https://plu.mx/plum/a/?{% if badge_doi != blank %}doi={{ badge_doi | cgi_escape }}{% elsif entry.pmid %}pmid={{ entry.pmid }}{% elsif entry.isbn %}isbn={{ entry.isbn }}{% elsif entry.plumx %}plumx={{ entry.plumx }}{% endif %}"
               class="plumx-plum-print-popup"
+              aria-label="PlumX metrics for {{ entry.title | strip_html | escape }}"
               data-site="plum"
               data-popup="right"
               data-size="large"
               data-hide-when-empty="true"
               style="margin-bottom: 3px;"
-            >
-              {{- entry.title -}}
-            </a>
+            ></a>
           {% endif %}
           {% if site.enable_publication_badges.google_scholar and entry_has_google_scholar_badge %}
             <a

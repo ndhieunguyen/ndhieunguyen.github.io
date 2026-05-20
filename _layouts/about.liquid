@@ -63,21 +63,6 @@ layout: default
           >
             <i class="ai ai-google-scholar mr-1"></i>View Full Profile
           </a>
-
-          {% if site.enable_publication_badges.plumx and site.orcid_id %}
-            <div class="text-center mt-3">
-              <a
-                href="https://plu.mx/plum/u/?orcid={{ site.orcid_id }}"
-                class="plumx-plum-print-popup"
-                data-site="plum"
-                data-badge-type="author"
-                data-size="small"
-                data-popup="right"
-                data-hide-when-empty="true"
-                >&nbsp;</a
-              >
-            </div>
-          {% endif %}
         </div>
       </div>
     {% endif %}
