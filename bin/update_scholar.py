@@ -3,8 +3,8 @@ import re
 import json
 import os
 
-def get_scholar_metrics(userid):
-    url = f"https://scholar.google.com/citations?user={userid}&hl=en"
+def update_scholar_data(userid):
+    url = f"https://scholar.google.com/citations?user={userid}&hl=en&cstart=0&pagesize=100"
     headers = {
         "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
     }
@@ -14,7 +14,7 @@ def get_scholar_metrics(userid):
         response.raise_for_status()
         html = response.text
         
-        # Simple regex extraction for citations and h-index
+        # 1. Extract total metrics (citations, h-index)
         citations_match = re.search(r'Citations</a></td><td class="gsc_rsb_std">(\d+)</td>', html)
         hindex_match = re.search(r'h-index</a></td><td class="gsc_rsb_std">(\d+)</td>', html)
         
@@ -23,21 +23,35 @@ def get_scholar_metrics(userid):
             "h_index": int(hindex_match.group(1)) if hindex_match else 0,
             "last_updated": os.environ.get("GITHUB_RUN_ID", "local")
         }
-        return metrics
-    except Exception as e:
-        print(f"Error fetching scholar metrics: {e}")
-        return None
-
-if __name__ == "__main__":
-    # Get user ID from environment or default from config (if we were parsing it)
-    # For now, we take it from a known source or the user's config
-    scholar_id = "-aEoZCgAAAAJ"
-    
-    metrics = get_scholar_metrics(scholar_id)
-    if metrics:
+        
+        # Save user-level metrics
         os.makedirs("_data", exist_ok=True)
         with open("_data/scholar_metrics.json", "w") as f:
             json.dump(metrics, f, indent=2)
         print(f"Successfully updated scholar metrics: {metrics}")
-    else:
-        print("Failed to update scholar metrics.")
+        
+        # 2. Extract individual paper citations
+        citations_dict = {}
+        rows = re.findall(r'<tr class="gsc_a_tr">.*?</tr>', html, re.DOTALL)
+        for row in rows:
+            id_match = re.search(r'citation_for_view=[a-zA-Z0-9_-]+?:([a-zA-Z0-9_-]+)', row)
+            cite_match = re.search(r'class="gsc_a_ac[^"]*">([\d]+)</a>', row)
+            
+            if id_match:
+                paper_id = id_match.group(1)
+                citations = int(cite_match.group(1)) if cite_match else 0
+                citations_dict[paper_id] = citations
+        
+        # Save paper-level citations
+        with open("_data/scholar_citations.json", "w") as f:
+            json.dump(citations_dict, f, indent=2)
+        print(f"Successfully updated scholar citations for {len(citations_dict)} papers.")
+        return True
+        
+    except Exception as e:
+        print(f"Error fetching scholar metrics: {e}")
+        return False
+
+if __name__ == "__main__":
+    scholar_id = "-aEoZCgAAAAJ"
+    update_scholar_data(scholar_id)

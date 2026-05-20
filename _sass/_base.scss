@@ -751,15 +751,29 @@ footer.sticky-bottom {
 
       .badges {
         padding-bottom: 0.5rem;
-        span {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        flex-wrap: wrap;
+        gap: 0.5rem;
+
+        span,
+        a {
           display: inline-block;
           color: $black-color;
-          height: 100%;
-          padding-right: 0.5rem;
           vertical-align: middle;
 
           &:hover {
             text-decoration: underline;
+          }
+        }
+
+        .plx-wrapping-print-link {
+          display: inline-block;
+          vertical-align: middle;
+          div {
+            display: inline-block !important;
+            vertical-align: middle;
           }
         }
       }
